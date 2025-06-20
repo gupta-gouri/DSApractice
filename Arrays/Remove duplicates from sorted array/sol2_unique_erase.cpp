@@ -14,3 +14,13 @@ public:
         return nums.size();
     }
 };
+
+/*
+OTHER - 1) can use extra vector 
+            TC - O(n) 
+            SC - O(n)
+
+      - 2) Rotate one by one: move the last element to front, shift others to right (repeat k times)
+            TC - O(n*k) 
+            SC - O(1)
+*/
