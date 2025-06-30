@@ -20,3 +20,4 @@ Given an array of integers `nums` and an integer `target`, find the smallest ind
 **Output:**  
 `-1`  
 **Explanation:** 6 is not found in the array.
+`
