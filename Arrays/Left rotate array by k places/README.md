@@ -11,7 +11,9 @@ Given an integer array nums and a non-negative integer k, rotate the array to th
 **Output:** `nums = [3, 4, 5, 6, 1, 2]`
 
 **Explanation:** 
+
 rotate 1 step to the left: `[2, 3, 4, 5, 6, 1]`
+
 rotate 2 steps to the left: `[3, 4, 5, 6, 1, 2]`
 
 ---
@@ -21,6 +23,7 @@ rotate 2 steps to the left: `[3, 4, 5, 6, 1, 2]`
 **Output:** `nums = [1, 5, 3, -5, 3, 4]`
 
 **Explanation:**
+
 rotate 1 step to the left: `[4, 1, 5, 3, -5, 3]`
 
 rotate 2 steps to the left: `[1, 5, 3, -5, 3, 4]`

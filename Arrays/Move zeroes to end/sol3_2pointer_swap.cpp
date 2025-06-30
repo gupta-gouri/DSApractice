@@ -7,14 +7,18 @@ Two-pointer swap
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        int n = nums.size();
-        
-        int j=0;
-        for(int i=0; i<n; i++){
-            if(nums[i] != 0){
-                swap(nums[i], nums[j++]);
+        int pos = 0;  // Position to place the next non-zero element
+
+        // Step 1: Move all non-zero elements to the front
+        for (int i = 0; i < nums.size(); i++) {
+            if (nums[i] != 0) {
+                nums[pos++] = nums[i];
             }
         }
-        
-    }   
+
+        // Step 2: Fill remaining positions with zeroes
+        while (pos < nums.size()) {
+            nums[pos++] = 0;
+        }
+    }
 };
