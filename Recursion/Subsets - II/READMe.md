@@ -34,4 +34,4 @@ Given an integer array nums, which can have duplicate entries, provide the power
 Each element has two possibilities (include or exclude), resulting in 2N combinations.
 
 ### Space complexity
- - **O(n)** - O(N), due to the maximum depth of the recursion stack, which is k.
+ - **O(n)** - due to the maximum depth of the recursion stack, which is k.
